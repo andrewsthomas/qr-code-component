@@ -1,2 +1,2 @@
-# qr-code-component
+# QR Code Component
 QR code design for mobile and desktop
