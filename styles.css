@@ -36,16 +36,15 @@ body {
   background-color: var(--light-gray);
 }
 
-#main {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* Component styles */
-#qr-container {
+.qr-container {
   background-color: var(--white);
   width: 32rem; /* 320px */
   height: 49.7rem; /* 497px */
@@ -53,14 +52,14 @@ body {
   border-radius: 2rem; 
 }
 
-#qr-code-image {
+.qr-code-image {
   width: 28.8rem; 
   height: 28.8rem; 
-  margin: 1.6rem; 
+  margin: 1.6rem 1.6rem 1.6rem; 
   border-radius: 1rem; 
 }
 
-#headline {
+.headline {
   color: var(--dark-blue);
   margin: 0 1.6rem 1.6rem;
   font-style: normal;
@@ -70,7 +69,7 @@ body {
   text-align: center;
 }
 
-#description {
+.description {
   color: var(--grayish-blue);
   margin: 0 2.5rem;
   font-style: normal;
